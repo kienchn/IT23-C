@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+    <!--Charset-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta tags for -->
+    <meta name="description" content="Personal profile page of Euwan Paul Figueroa, an ICT student from Manila, Philippines.">
+    <meta name="author" content="Euwan Paul Figueroa">
+    <meta property="og:title" content="Euwan Paul Figueroa's Personal Profile">
+    <meta property="og:description" content="Explore the profile of Euwan Paul Figueroa, an ICT student with a passion for technology and development.">
+    <meta property="og:image" content="path/to/your-image.jpg">
+    <meta property="og:url" content="your-website-url">
+    
+    <title>Personal Profile Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Internal CSS -->
+ <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #000;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 1em;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 2em;
+        margin: 1em 0;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #333;
+        color: #fff;
+    }
+    
+    .card {
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .hero-section {
+        background: #fff url('path/to/your-hero-image.jpg') no-repeat center center;
+        background-size: cover;
+        color: #fff;
+        padding: 4em 0;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .hero-section h1 {
+            font-size: 2em;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 0.5em 0;
+        }
+
+        section {
+            padding: 1em;
+        }
+    }
+</style>
+    </head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <h1>My Personal Website</h1>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#">Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Navigation Links -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1 style="color:black;">Welcome to My Personal Website</h1>
+        <p style="color:black">Discover more about me!</p>
+    </div>
+
+    <!-- Profile Card Section -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://i.pinimg.com/originals/0c/e4/8c/0ce48c67b1907210551c22fc56514034.png" class="card-img-top" alt="Kien S. Salalima">
+                    <div class="card-body">
+                        <h5 class="card-title">Kien Salalima </h5>
+                        <p class="card-text">IT Student</p>
+                        <p class="card-text">Manolo Fortich, Bukidnon</p>
+
+                        <!-- Social Media and Profile Links -->
+                        <div class="d-flex justify-content-center mb-3">
+                            <a href="#" class="btn btn-outline-primary me-2" aria-label="Edit Profile">
+                                <i class="fas fa-pen"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-dark me-2" aria-label="Developer Portfolio">
+                                <i class="fab fa-dev"></i>
+                            </a>
+                            <a href="https://x.com/kchn_mx?t=TVIQNKbF9G2c-ZO_J2t42g&s=09" class="btn btn-outline-info me-2" aria-label="X twitter Profile">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100077304441928" class="btn btn-outline-primary me-2" aria-label="Facebook Profile">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/arkin_mx/" class="btn btn-outline-danger me-2" aria-label="Instagram Profile">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-secondary" aria-label="View Profile">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-warning" aria-label="Download Resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about" class="container mt-5">
+        <h2>About Me</h2>
+        <p>I am Kien Salalima, 20 years old an IT student studying at Northern Bukidnon State College. My goal is to become a full-time Back-End Developer for a game or application company. I enjoy reading, particularly books by John Green, and playing FPS games. I am passionate about technology and development.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mt-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://giffiles.alphacoders.com/212/212391.gif" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">This project involves creating a streamlined personal website to improve accessibility and user engagement.</p>
+                        <!-- Button to open project details modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            Check Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mt-5">
+        <h2>Skills</h2>
+        <p>Here are some of the skills I have developed:</p>
+        <ul>
+            <li>Knowledgeable in HTML and CSS</li>
+            <li>Basic understanding of computer systems and software</li>
+            <li>Eager to learn more programming languages </li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container mt-5">
+        <h2>Education</h2>
+        <p>My educational background includes:</p>
+        <ul>
+            <li><strong>Manolo Fortich National High School</strong> - ICT Student (Graduate)</li>
+            <li><strong>Northern Bukidnon State College</strong
+
+> - Expected Graduation: 2026</li>
+        </ul>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="container mt-5">
+        <h2>Hobbies</h2>
+        <p>In addition to my academic and professional interests, I enjoy various hobbies that help me stay balanced and creative:</p>
+        <ul>
+            <li>Reading books, especially novels by John Green and other contemporary authors</li>
+            <li>Playing video games, with a focus on FPS (First Person Shooter) games</li>
+            <li>Exploring new technology trends and experimenting with coding projects</li>
+            <li>Outdoor activities like cycling and gym to stay active and healthy</li>
+            <li>Creative writing and blogging to express my thoughts and ideas</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faq" class="container mt-5">
+        <h2>FAQs</h2>
+        <div class="accordion" id="accordionExample">
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is your experience?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     I have so many experience and I am a quick learner and highly motivated to expand my knowledge and skills in the field of IT.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What programming languages are you familiar with?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        I am familiar with Ruby and Php. I am also keen to learn other languages such as Python and C++.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How do you handle challenges in your projects?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        I approach challenges by breaking them down into smaller tasks, seeking guidance from mentors or peers, and using online resources to find solutions. Persistence and a positive attitude help me overcome obstacles.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Project Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    This project involves creating a streamlined personal website to improve accessibility and user engagement. It integrates various technologies to ensure smooth navigation and interaction.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Kien pogi</p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body> 
+
+</html>
